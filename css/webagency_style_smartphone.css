@@ -1,0 +1,231 @@
+/*Tout types de smartphone----------------------------------------------------------------------*/
+@media all and (max-device-width: 480px) 
+{
+    /*Body General-text------------------------------------------------------------*/
+    body
+    {
+        font-size: 1.5em;
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+
+    /*Section general-parameter ----------------------------------------------------*/
+    section, .slider
+    {
+        padding-bottom: 2%;
+    }
+
+    .text-intro
+    {
+        font-size: 0.57em;
+        margin-bottom: 4%;
+    }
+
+    .portfolio-contents, .services-contents
+    {
+        width: auto;
+    }
+
+    /*Header navigation-bar---------------------------------------------------------*/
+    .top-bar
+    {
+        padding: 0% 2% 0% 3%;
+    }
+
+    .menu a
+    {
+        padding: 0px 25px 0px 0px;
+        font-size: 1.3em;
+    }
+
+    .menu a:hover
+    {
+        border-top: none;
+        color: #4696BD;
+    }
+
+    /*Header Slide-------------------------------------------------------------------*/
+    .slider
+    {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .slide-contents
+    {
+        position: relative;
+        
+        display: block;
+        width: auto;
+        color:#272727;
+    }
+
+    .image-slide
+    {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    .slide-text
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slider p
+    {
+        padding: 0% 15% 3% 15%;
+    }
+
+    .left-slide-arrow, .right-slide-arrow
+    {
+       display: none;
+    }
+
+    /* Section Services---------------------------------------------------------------*/
+    .services-section
+    {
+        margin-top: -140px;
+    }
+
+    .services-section .introduction
+    {
+        margin-bottom: 10%;
+    }
+
+    .services-contents, .services-descriptive
+    {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .services-contents
+    {
+        margin-top: -6%;
+        padding-bottom: 30%;
+    }
+
+    .services-descriptive
+    {
+        padding-top: 5%;
+        margin-right: 0%;
+    }
+
+    .services-image
+    {
+        top: 0px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .services-text
+    {
+        padding-left: 8%;
+    }
+
+    /*Section Portfolio/navigation------------------------------------------------------*/
+    .select-button label,.select-button-left label,.select-button-right label
+    {
+        width: 200px;
+        height: 65px;
+        font-size: 1.5em;
+    }
+
+    .projects-buttons input:checked+label+.triangle 
+    {
+        border-top : 15px solid #4696BD;
+        border-right : 15px solid transparent;
+        border-left : 15px solid transparent;
+        margin-top: -1px;
+    }
+
+    /*section portfolio/images---------------------------------------------------------*/
+    .portfolio-contents
+    {
+        width: 62%;
+        margin-top: 11%;
+        padding-bottom: 30%;
+    }
+
+    .images-group
+    {
+        flex-direction: column;
+    }
+
+    .images-sous-group
+    {
+        justify-content: space-between;
+    }
+
+    .image-bloc
+    {
+        width: 261px;
+        height: 174px;
+    }
+
+    .icone-eye
+    {
+        display: none;
+    }
+
+    /*section Formulaire de contact----------------------------------------------------*/
+    .contact-section
+    {
+        padding-bottom: 8%;
+    }
+
+    .contact-contents
+    {
+        flex-direction: column;
+    }
+
+    .contact-form
+    {
+        width: 80%;
+        height: auto;
+        padding: 2px 20px 20px 20px;
+        margin: auto;
+        margin-bottom: 35%;
+        font-size: 1.3em;
+    }
+
+    .form-line,.contact-form textarea
+    {
+        width: 98%;
+    }
+
+    .form-line
+    {
+        height: 80px;
+        margin-bottom: 5%;
+        font-size: 1em;
+    }
+
+    .contact-form textarea
+    {
+        height: 150px;
+        font-size: 0.5em; 
+    }
+
+    .google-map-bloc, iframe
+    {
+        width: 84%;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+
+    .form-button
+    {
+        height: 75px;
+        margin: 1% 0% 3% 0%;
+    }
+}

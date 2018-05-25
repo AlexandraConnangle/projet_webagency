@@ -1,0 +1,201 @@
+/*Tout types d'écran en dessous de 1439px (écran moyen)------------------------------------------------*/
+@media all and (max-width: 1439px)
+{
+    /*Section Service ----------------------------------------*/
+    .services-contents
+    {
+        margin-top: 12%;
+    }
+
+    /*section Formulaire de contact----------------------------------------------*/
+    .contact-section
+    {
+        padding-bottom: 55%;
+    }
+
+    .contact-contents
+    {
+        display: flex;
+    }
+
+    .google-map-bloc, iframe
+    {
+        width: 53%;
+        height: 531px;
+        margin-right: 1%; 
+    }
+
+     .contact-form textarea
+    {
+        width: 100%; 
+    }
+
+    .contact-form
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 47%;
+        height: 510px;
+        background-color:#F5F5F5; 
+    }
+}
+
+/*Tout type d'écran en dessous de 992px (petit écran)------------------------------------------------------------------------*/
+@media all and (max-width: 992px)
+{
+    /*Header Slide------------------------------------------------------------------*/
+    .slider
+    {
+        margin-bottom: 1%;
+    }
+
+    .slide-contents
+    {
+        position: relative;
+        color:#272727;
+    }
+
+    .slide-text
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height:450px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .slide-text h1, .slide-text p
+    {
+        width: 100%;
+    }
+
+    .left-slide-arrow, .right-slide-arrow
+    {
+       display: none;
+    }
+
+    .image-slide
+    {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    /*Section general-parameter-------------------------------------------------------*/
+    .text-intro
+    {
+        width: 90%;
+    }
+
+    /* Section Services---------------------------------------------------------------*/
+    .services-contents
+    {
+        flex-direction: column;
+        margin: auto;
+        padding: 0% 8% 13% 8%;
+        align-items: center;
+    }
+
+    .services-descriptive, .services-image
+    {
+        width: 90%;
+    }
+
+    .services-image
+    {
+        top: -20%;
+    }
+
+    /*section portfolio/images---------------------------------------------------------*/
+    .portfolio-contents
+    {
+        padding-bottom: 13%;
+    }
+
+    .images-group
+    {
+        flex-direction: column;
+    }
+}
+
+/*Tout type d'écran en dessous de 768px (sauf écran tablette)------------------------------------------------------------------------*/
+@media all and (max-width: 768px)
+{
+    /*Header navigation-bar--------------------------------------------------------*/
+    .top-bar
+    {
+        padding: 0% 2% 0% 3%;
+    }
+
+    .menu ul
+    {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .menu a
+    {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .menu a:hover
+    {
+        border-top: none;
+        color: #4696BD;
+    }
+}
+
+/*Tout type d'écran tablette de max 768px (uniquement écran tablette)------------------------------------------------------------------------*/
+@media all and (max-device-width: 768px)
+{
+    /*Section Service----------------------------------------------------*/
+    .services-section
+    {
+        margin-top: -265px;
+    }
+
+    .services-section .introduction
+    {
+        margin-bottom: 4%;
+    }
+
+    /*section Formulaire de contact----------------------------------------------------*/
+    .contact-section
+    {
+        padding-bottom: 40%;
+    }
+
+    .contact-contents
+    {
+        flex-direction: column;
+    }
+
+    .contact-form
+    {
+        width: 80%;
+        height: auto;
+        padding: 2px 20px 20px 20px;
+        margin: auto;
+    }
+
+    .form-line,.contact-form textarea
+    {
+        width: 98%;
+    }
+
+    .contact-form textarea
+    {
+        height: 150px; 
+    }
+
+    .google-map-bloc, iframe
+    {
+        width: 86%;
+        height: 200px;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+}
